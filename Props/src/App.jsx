@@ -6,7 +6,7 @@ import ProfileCard from "./ProfileCard";
 
 function App() {
   const handleHobbyClick = (hobby) => {
-    alert();
+    alert(`you clicked on ${hobby}`);
   };
   return (
     <div className="app-container">
